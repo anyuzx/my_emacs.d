@@ -10,6 +10,15 @@
    (quote
     ("4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" default)))
  '(fci-rule-color "#eee8d5")
+ '(markdown-command "/usr/local/bin/pandoc")
+ '(safe-local-variable-values
+   (quote
+    ((no-byte-compile t)
+     (ruby-compilation-executable . "ruby")
+     (ruby-compilation-executable . "ruby1.8")
+     (ruby-compilation-executable . "ruby1.9")
+     (ruby-compilation-executable . "rbx")
+     (ruby-compilation-executable . "jruby"))))
  '(session-use-package t nil (session))
  '(vc-annotate-background nil)
  '(vc-annotate-color-map

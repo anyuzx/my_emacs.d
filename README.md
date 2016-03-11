@@ -1,10 +1,12 @@
 [![Build Status](https://travis-ci.org/purcell/emacs.d.png?branch=master)](https://travis-ci.org/purcell/emacs.d)
 
-### List of the modification I did
+### List of the modifications I did
 
 * Add function to preview the markdown file using Marked 2. Key binding is `C-c m`.  
+
+* Add function to map `markdown-command` to `pandoc`. By default, use `/usr/local/bin` as pandoc's path installed through homebrew.  
     
-* Change the multiple cursor command `mc/edit-line` key binding to `ESC down`, since the original key binding `C-S-c C-S-c` doesn't work in iTerm2(`Control+Shift` key problem).  
+* Change the multiple cursor command `mc/edit-line` key binding to `ESC down`, since the original key binding `C-S-c C-S-c` doesn't work in iTerm2 (`Control+Shift` key problem).  
 
 # A reasonable Emacs config
 
