@@ -24,4 +24,7 @@
    (format "open -a 'Marked 2.app' %s"
            (shell-quote-argument (buffer-file-name)))))
 (global-set-key "\C-cm" 'my/markdown-preview-file)
+
+(custom-set-variables
+ '(markdown-command "/usr/local/bin/pandoc"))
 (provide 'init-locales)
