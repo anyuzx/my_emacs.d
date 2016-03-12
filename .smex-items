@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
+ turn-on-evil-mode
+ evil-mode
+ list-packages
  delete-region
  delete-other-windows
  customize
  eval-buffer
- customize-themes
- load-theme
- multiple-cursors-mode
 )
 
 ;; ----- smex-data -----
 (
- (list-packages . 3)
+ (list-packages . 4)
  (custom-theme-visit-theme . 2)
  (load-theme . 18)
  (customize-themes . 2)
@@ -32,4 +32,6 @@
  (eval-buffer . 4)
  (customize . 1)
  (delete-region . 1)
+ (evil-mode . 6)
+ (turn-on-evil-mode . 6)
 )

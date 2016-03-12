@@ -25,6 +25,8 @@
            (shell-quote-argument (buffer-file-name)))))
 (global-set-key "\C-cm" 'my/markdown-preview-file)
 
+(require 'evil)
+
 (custom-set-variables
  '(markdown-command "/usr/local/bin/pandoc"))
 (provide 'init-locales)
