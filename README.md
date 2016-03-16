@@ -4,11 +4,11 @@
 
 ### List of the modifications I did
 
-* Add function to preview the markdown file using Marked 2. Key binding is `C-c m`.  
+* Add function to preview the markdown file using Marked 2. Key binding is <kbd>C-c m</kbd>.  
 
 * Add function to map `markdown-command` to `pandoc`. By default, use `/usr/local/bin` as pandoc's path installed through homebrew.  
     
-* Change the multiple cursor command `mc/edit-line` key binding to `ESC down`, since the original key binding <kbd>C-S-c C-S-c</kbd> doesn't work in iTerm2 (`Control+Shift` key problem).  
+* Change the multiple cursor command `mc/edit-line` key binding to <kbd>ESC down</kbd>, since the original key binding <kbd>C-S-c C-S-c</kbd> doesn't work in iTerm2 (<kbd>Control+Shift</kbd> key problem).  
 
 ---
 
