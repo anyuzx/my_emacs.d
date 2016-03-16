@@ -8,7 +8,7 @@
 
 * Add function to map `markdown-command` to `pandoc`. By default, use `/usr/local/bin` as pandoc's path installed through homebrew.  
     
-* Change the multiple cursor command <kbd>mc/edit-line</kbd> key binding to <kbd>ESC down</kbd>, since the original key binding <kbd>C-S-c C-S-c</kbd> doesn't work in iTerm2 (<kbd>Control<\kbd> + <kbd>Shift</kbd> key problem).  
+* Change the multiple cursor command <kbd>M-x mc/edit-line</kbd> key binding to <kbd>ESC down</kbd>, since the original key binding <kbd>C-S-c C-S-c</kbd> doesn't work in iTerm2 (<kbd>Control</kbd> + <kbd>Shift</kbd> key problem).  
 
 ---
 
