@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ python-mode
+ shell
+ run-python
  turn-on-evil-mode
  evil-mode
  list-packages
  delete-region
- delete-other-windows
- customize
- eval-buffer
 )
 
 ;; ----- smex-data -----
@@ -18,11 +18,11 @@
  (customize-themes . 2)
  (customize-mode . 2)
  (customize-variable . 2)
- (python-mode . 1)
- (shell . 1)
+ (python-mode . 3)
+ (shell . 2)
  (python-shell-send-file . 1)
  (replace-string . 2)
- (run-python . 1)
+ (run-python . 2)
  (clean-buffer-list . 1)
  (multiple-cursors-mode . 14)
  (set-rectangular-region-anchor . 3)
@@ -33,5 +33,5 @@
  (customize . 1)
  (delete-region . 1)
  (evil-mode . 6)
- (turn-on-evil-mode . 6)
+ (turn-on-evil-mode . 7)
 )

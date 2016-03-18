@@ -1,9 +1,11 @@
 # local emacs computer specific log files
 .emacs.desktop
 .session
+.smex-items
 recentf
 history
 ido.last
+auto-save-list/
 
 # Compiled source #
 ###################
