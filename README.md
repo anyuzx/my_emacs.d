@@ -10,6 +10,12 @@
     
 * Change the multiple cursor command <kbd>M-x mc/edit-line</kbd> key binding to <kbd>ESC down</kbd>, since the original key binding <kbd>C-S-c C-S-c</kbd> doesn't work in iTerm2 (<kbd>Control</kbd> + <kbd>Shift</kbd> key problem).  
 
+* Add the following line in `~/.emacs.d/lisp/init-local.el` to enable the auto-switching-line in `org-mode`:
+
+```
+(add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
+```
+
 ---
 
 # A reasonable Emacs config

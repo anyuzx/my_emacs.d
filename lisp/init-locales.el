@@ -30,3 +30,5 @@
 (custom-set-variables
  '(markdown-command "/usr/local/bin/pandoc"))
 (provide 'init-locales)
+
+(add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
