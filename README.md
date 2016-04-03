@@ -12,7 +12,7 @@
 
 * Add the following line in `~/.emacs.d/lisp/init-local.el` to enable the auto-switching-line in `org-mode`:
 
-```
+```lisp
 (add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
 ```
 
