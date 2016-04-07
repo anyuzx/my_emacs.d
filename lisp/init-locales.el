@@ -32,3 +32,5 @@
 (provide 'init-locales)
 
 (add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
+
+(setq org-agenda-files (list "~/Dropbox/org-mode/work.org" "~/Dropbox/org-mode/home.org"))
