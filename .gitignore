@@ -8,6 +8,7 @@ ido.last
 auto-save-list/
 tramp
 .emacs.desktop.lock
+org-clock-save.el
 
 # Compiled source #
 ###################
